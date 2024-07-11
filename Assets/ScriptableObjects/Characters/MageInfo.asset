@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7558102e4db5a7446be90b01cdd86188, type: 3}
+  m_Name: MageInfo
+  m_EditorClassIdentifier: 
+  cost: 10
+  characterPrefab: {fileID: 4924342738559563118, guid: 8bea76d4dd26b7a4d87a8391cb0cafed, type: 3}
+  characterIcon: {fileID: -645431962226827070, guid: 8031460a7c5fb55418879af57b468a90, type: 3}

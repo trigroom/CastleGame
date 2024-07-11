@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5083604374147104345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7630544552483478059}
+  - component: {fileID: 4001055470320672863}
+  m_Layer: 0
+  m_Name: MainGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7630544552483478059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083604374147104345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4001055470320672863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083604374147104345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d90e7bb6767718499730427e2a590d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCharactersInRound: 5
+  useUpgrades: 01000000000000000000000000000000000000000000000000000000000000000000
+  unlockedCharacters: 01010100000000000000000000000000000000000000
+  unlockedHeroes: 0101
+  isSelectedCharacters: 
+  upgradesInfo:
+  - {fileID: 11400000, guid: 9432494eedacdbe4ab8b9a578419283e, type: 2}
+  - {fileID: 11400000, guid: e5097a8a25b60144395d299dcbca0411, type: 2}
+  - {fileID: 11400000, guid: fed0544936c0e9f448f227ce2621c4ef, type: 2}
+  - {fileID: 11400000, guid: a58c655dae6f8d240b9e658e6c505af0, type: 2}
+  - {fileID: 11400000, guid: 8aa23fea660d91744989befed39750d7, type: 2}
+  - {fileID: 11400000, guid: ef6f4920fe087b341a454373ac96ea70, type: 2}
+  - {fileID: 11400000, guid: fc3205ee02da3614abe1f33009a63b7d, type: 2}
+  - {fileID: 11400000, guid: 7e252c05a0df3494c9fbfca718e3aecd, type: 2}
+  - {fileID: 11400000, guid: 198ed4355352274459c823b3b10cedf3, type: 2}
+  - {fileID: 11400000, guid: fd53cdeed82925948967ddc31fac683f, type: 2}
+  - {fileID: 11400000, guid: 8e508d5d434445e408d573e6b59bc4c3, type: 2}
+  - {fileID: 11400000, guid: 0314c38d59b1b764d91e59cfc70704e5, type: 2}
+  - {fileID: 11400000, guid: 32e586e39b204ba449351c3f0484a01e, type: 2}
+  - {fileID: 11400000, guid: c84a0018e41adaf4d95b4214d44523cd, type: 2}
+  - {fileID: 11400000, guid: c0c9267645fff98409fa4726c46a9e57, type: 2}
+  - {fileID: 11400000, guid: aa15ea4521a90784abe84ee2a421cf0f, type: 2}
+  - {fileID: 11400000, guid: 1135547fbc620274b99d391ae5860007, type: 2}
+  - {fileID: 11400000, guid: bfb7ad138d6464343bcc525cee38287a, type: 2}
+  - {fileID: 11400000, guid: e04dd63207712a741a81a0e4a39de6a0, type: 2}
+  - {fileID: 11400000, guid: adb4ab8fb7e36a24ba6a4d75a092ec25, type: 2}
+  - {fileID: 11400000, guid: b8c337a423a1853439afc0a57fb09785, type: 2}
+  - {fileID: 11400000, guid: 9bef756406684f74e8bb31097ffbf605, type: 2}
+  - {fileID: 11400000, guid: 4a9fb2f37baad6448ad26b444c6b54b5, type: 2}
+  - {fileID: 11400000, guid: 7915e096415b5024c92ee9bba8472127, type: 2}
+  - {fileID: 11400000, guid: c726cfe55023cd042a23c64e54d23c64, type: 2}
+  - {fileID: 11400000, guid: b314970bae0fd874d8be77b305e52264, type: 2}
+  - {fileID: 11400000, guid: fa76ed4897dd35344b056cbe46ecb313, type: 2}
+  - {fileID: 11400000, guid: 39d2b86c5a020034d970a8dbee828482, type: 2}
+  - {fileID: 11400000, guid: 7e95473dc879a11469ddcf4a12a26414, type: 2}
+  - {fileID: 11400000, guid: 8254efb77edd36a44a97c45780de66df, type: 2}
+  - {fileID: 11400000, guid: 940db52117f2a5b44ade01a0e5986a5a, type: 2}
+  - {fileID: 11400000, guid: 1b800308d943206459e91c0650aed913, type: 2}
+  - {fileID: 11400000, guid: c3abd7939fa93c64ca6d6af4e9825ab2, type: 2}
+  - {fileID: 11400000, guid: 68657eefa9e473543883870970937d6e, type: 2}
+  characters:
+  - {fileID: 11400000, guid: 2dd5b3617b7654546b304c4c81ddbda6, type: 2}
+  - {fileID: 11400000, guid: e35c2709c0052a645bec8d85ec06429b, type: 2}
+  - {fileID: 11400000, guid: 1b1dc11e133596b4fa100ee22d468af8, type: 2}
+  - {fileID: 11400000, guid: d40c0861ee9fa02449ab3057249dc9af, type: 2}
+  - {fileID: 11400000, guid: c2cf6f151bae1014e8a8443c58a3ea6e, type: 2}
+  - {fileID: 11400000, guid: ce49309f074db0c469f1301a4c7907e2, type: 2}
+  - {fileID: 11400000, guid: ef92523b494055947b25d9c04d36e518, type: 2}
+  - {fileID: 11400000, guid: 0a2f008bee5390b42899e409b49ddc82, type: 2}
+  - {fileID: 11400000, guid: 15d0737571919254f9822f8ebb14be7f, type: 2}
+  - {fileID: 11400000, guid: 6409838cf249cee478bc76963883afe9, type: 2}
+  - {fileID: 11400000, guid: 1ec4311d90c03774a8c5054375ee545e, type: 2}
+  - {fileID: 11400000, guid: 06048cfcc39aebe4798945d7d75d0b4f, type: 2}
+  - {fileID: 11400000, guid: 3ad8b43ac5fa87744b530991e3c41558, type: 2}
+  - {fileID: 11400000, guid: 17c46dd81a880a64c8cff9792cf934cd, type: 2}
+  - {fileID: 11400000, guid: de069805b3e78f34fb2c046a364268ca, type: 2}
+  - {fileID: 11400000, guid: b914d1074f688934b9d4872157ebbeca, type: 2}
+  - {fileID: 11400000, guid: 7ce49ed609859494084046874324130f, type: 2}
+  - {fileID: 11400000, guid: f9d1bea3f250f1044ab1bb9e4f9665fe, type: 2}
+  - {fileID: 11400000, guid: c4e1692352d1bbc489bdd5de2eb2cdfc, type: 2}
+  - {fileID: 11400000, guid: bacee133e99d99f49ba9c66aadf062f8, type: 2}
+  - {fileID: 11400000, guid: 41504e6f73a5533419909d925b8d85dc, type: 2}
+  - {fileID: 11400000, guid: 401ce3f5d117cd04ea429f749702a8f9, type: 2}
+  heroes:
+  - {fileID: 11400000, guid: 3173a6ab44b399248a2267a1e66d0abb, type: 2}
+  - {fileID: 11400000, guid: 349fd69d69e2e9046848d40fda5ce1c8, type: 2}
+  selectedCharacters: []
+  selectedHero: {fileID: 0}
+  characterSelectButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  heroesSelectButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  level: 0
+  locationInfos:
+  - locationPrefab: {fileID: 3317551382878644647, guid: 034c8962c7ab8c349b29e9a2856853af, type: 3}
+    minYEnemySpawn: -0.353
+    maxYEnemySpawn: -0.102
+    maxCamX: 1.38
+    minCamX: -0.28
+    camSize: 0.5
+    camY: 0
+    castleEnemyPos: 2.4
+    castlePlayerPos: -1.07
+  - locationPrefab: {fileID: 3317551382878644647, guid: 5c96428a2e09ce84f9e78fca610d1408, type: 3}
+    minYEnemySpawn: -0.336
+    maxYEnemySpawn: 0.03
+    maxCamX: 2
+    minCamX: 0.5
+    camSize: 0.95
+    camY: 0.45
+    castleEnemyPos: 3.4
+    castlePlayerPos: -0.8

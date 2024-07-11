@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c217f6653e9e3004a8e398e2c26132a5, type: 3}
+  m_Name: 13AddHealthMage
+  m_EditorClassIdentifier: 
+  cost: 3000
+  unlockableUpgradeButtons: 12000000
+  addedMaxHealth: 3
+  addedDodgeChance: 0
+  addedResist: 0
+  characterNum: 01000000

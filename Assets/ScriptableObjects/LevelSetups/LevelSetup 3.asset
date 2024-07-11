@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbd20e051062d44ea6413695df5e24d, type: 3}
+  m_Name: LevelSetup 3
+  m_EditorClassIdentifier: 
+  enemyPrefabs_:
+  - {fileID: 11400000, guid: c3a7e503f63e7894298a0e139f5d6549, type: 2}
+  - {fileID: 11400000, guid: c3a7e503f63e7894298a0e139f5d6549, type: 2}
+  - {fileID: 11400000, guid: bea631553cb85d6458467e528c982042, type: 2}
+  moneyPerSecond: 10
+  maxEnemiesPerSpawn: 1
+  xSpawn: 1.88
+  ySpawnMin: -0.43
+  ySpawnMax: -0.12
+  spawnTime: 4
+  upgradeTime: 10
+  moneyMultiplayer: 0.3
